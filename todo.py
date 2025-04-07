@@ -1,4 +1,3 @@
-# adivinhacao.py
 import random
 
 def escolher_dificuldade():
@@ -21,7 +20,7 @@ def escolher_dificuldade():
 def jogar():
     numero_secreto = random.randint(1, 100)
     tentativas = 0
-    max_tentativas = escolher_dificuldade()  # Escolhe a dificuldade aqui!
+    max_tentativas = escolher_dificuldade() 
     
     print("\nBem-vindo ao Jogo de Adivinhação!")
     print(f"Tente adivinhar o número entre 1 e 100 em até {max_tentativas} tentativas.\n")
